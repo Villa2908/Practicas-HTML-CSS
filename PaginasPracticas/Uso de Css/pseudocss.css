@@ -1,0 +1,26 @@
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boton{
+    margin: 0;
+    padding: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton::after{
+    content: "Pasa por encima";
+}
+
+#boton:hover::after{
+    color: white;
+    background-color: green;
+}
+
+#boton:active::after{
+    content: "¡Hecho!";
+}
