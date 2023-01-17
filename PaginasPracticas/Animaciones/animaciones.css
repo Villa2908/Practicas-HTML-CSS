@@ -1,0 +1,52 @@
+.cuadrado{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+.objeto{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
+
+.cuadrado:hover .objeto{
+    animation: tarea 4s linear forwards;
+}
+
+@keyframes tarea {
+    0%{
+        background-color: red;
+        transform: translateX(0%);
+    }
+
+    15%{
+        background-color: brown;
+        transform:  translateX(50%) translateY(50%);
+    }
+
+    25%{
+        background-color: aqua;
+        transform:  translateX(100%) translateY(0%);
+    }
+
+    45%{
+        background-color: crimson;
+        transform: translateX(100%) translateY(0%);
+    }
+
+    55%{
+        background-color: blueviolet;
+        transform: translateX(100%) translateY(100%);
+    }
+
+    75%{
+        background-color: darkgreen;
+        transform: translateX(0%) translateY(100%);
+    }
+
+    100%{
+        background-color: darkorange;
+        transform: translateX(0%) translateY(0%);
+    }
+}
