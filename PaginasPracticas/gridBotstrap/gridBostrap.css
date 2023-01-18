@@ -1,0 +1,20 @@
+*{
+    margin: 10px;
+}
+
+.row-defecto{
+    background-color: brown;
+}
+
+.col-sm{
+    background-color: beige;
+}
+.col-md{
+    background-color: aquamarine;
+}
+.col-lg{
+    background-color: darkblue;
+}
+.col-xl{
+    background-color: chocolate;
+}
